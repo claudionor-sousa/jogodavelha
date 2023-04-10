@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(182, 180, 180);
+  
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  
+  }
+  
+  .square {
+    width: 100px;
+    display: flex;
+    background-color: white;
+    height: 100px;
+    border: 1px solid black;
+    vertical-align: top;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+  }
+  
+  
+  .square.x {
+      color: red;
+    }
+    
+    .square.o {
+      color: blue;
+    }
+    
